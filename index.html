@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Yourself</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="api yourself.js" defer></script>
+    <script src="lib/jquery-3.7.1.js"></script>
+</head>
+<body>
+
+    <div id="header">
+        Final Fantasy XIV Character Info and Comparison
+    </div>
+    <div id="instructions">
+        Welcome to the Final Fantasy XIV Character Info and Comparison Tool. Click on one of the buttons below to select a character whose information to view. Select "Comparison" to compare both characters. Once a character is selected, you can enter a number between 0 and 100
+        to check the number of achievements that character has obtained that has an own percentage below that number. For example, if you enter 15, it will display the number of achievements the character has obtained that have an ownership rate of less than or equal to 15%.
+        (Try entering larger numbers first, then go lower)
+    </div>
+    <div class="buttons">
+        <button type="button" id="button1">Lyra Argyle</button>
+        <button type="button" id="button2">Secre Nero</button>
+        <button type="button" id="button3">Comparison</button>
+    </div>
+    <div class="characterPanels">
+        <div class="characterPanel" id="characterPanel1">
+        </div>
+        <div class="characterPanel" id="characterPanel2">
+        </div>
+    </div>
+
+
+</body>
+</html>
